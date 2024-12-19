@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title> GeneneT. | Fullstack Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>GeneneT.</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+     </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <ion-icon class="times" name="close-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/heropic.jpeg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+              🙋 Hello, I’m a passionate and highly skilled Full-Stack Developer with expertise across both front-end and back-end technologies. 
+              I have a proven track record of delivering high-quality web applications that are secure, scalable, and efficient.
+            </p>
+        <p class="bio-text">
+          🚀 Ready to bring your ideas to life? <br> <br> I specialize in: <br>
+              ✔️ Developing secure, scalable, and efficient web applications. <br>
+              ✔️ Crafting mobile-friendly and responsive designs that perform seamlessly across all devices. <br>
+              ✔️ Delivering fast, maintainable, and high-quality code that meets your project goals. <br>
+              ✔️ Providing a 100% satisfaction guarantee by exceeding your expectations. <br>
+
+        </p>
+      </div>
+    </section>
+    
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+         <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/react-2.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/typescript-svgrepo-com.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/nextjs-icon-svgrepo-com.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/nodejs-ar21.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/mongodb-svgrepo-com.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/laravel-svgrepo-com.svg "
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <h3 class="projects-title">Check All my projects on Github</h3>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/hrms.jpg"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">HR Process Optimizer</h3>
+          <p class="project-details">
+            ✔️Employee Management: Add, update, delete, and search employee records. <br>
+            ✔️Attendance Management: Track employee attendance. <br>
+            ✔️Leave Management: Manage employee leave requests and approvals. <br>
+            ✔️Payroll Management: Calculate employee payroll and deductions. <br>
+            ✔️User Roles and Permissions: Define different user roles. 
+          </p>
+          <a href="https://github.com/tise-genene/HRMS-Yekatit12" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/agri.jpg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Agri-Fund</h3>
+          <p class="project-details">
+            ✔️Direct Connections: Connect farmers and lenders directly. <br>
+            ✔️Secure Transactions: Ensure secure and transparent transactions. <br>
+            ✔️User-Friendly Interface: Easy-to-use interface for both farmers and lenders. <br>
+            ✔️Comprehensive Dashboard: Manage and track loans, repayments, and user activities. <br>
+          </p>
+          <a href="https://github.com/tise-genene/AGRIFUND" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/eagle.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Eagle Tutorials Agency Website</h3>
+          <p class="project-details">
+            ✔️Responsive Design: Fully responsive layout for all screen sizes.  <br>
+            ✔️Interactive UI: Engaging user interface elements. <br>
+            ✔️Dynamic Content: Sections for case studies, successful tutors. <br> 
+            ✔️Newsletter Signup: To stay updated with news and offers. <br> 
+            ✔️Contact Form: Simple and accessible contact form.
+          </p>
+          <a href="https://github.com/tise-genene/EagleTutorials" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+<!-- Resume Section -->
+<section class="resume" id="resume">
+  <h2 class="section-title">My Resume</h2>
+  <div class="resume-wrapper">
+    <!-- Education Section -->
+    <div class="resume-section">
+      <h3 class="resume-heading">Education</h3>
+      <div class="resume-item">
+        <h4 class="resume-title">BSc in Information Systems</h4>
+        <p class="resume-details">Addis Ababa University, 2024</p>
+        <p class="resume-summary">
+          Graduated with a CGPA of 3.51/4.0. <br>
+          Focused on Software development, 
+          Data analysis, and Project management.
+        </p>
+      </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="resume-section">
+      <h3 class="resume-heading">Experience</h3>
+      <div class="resume-item">
+        <h4 class="resume-title">Software Developer</h4>
+        <p class="resume-details">Commercial Bank of Ethiopia (CBE), 2024</p>
+        <p class="resume-summary">
+          Developing and maintaining responsive web applications <br> to enhance user experience and optimize business processes.
+        </p>
+      </div>
+      <div class="resume-item">
+        <h4 class="resume-title">Fullstack Developer</h4>
+        <p class="resume-details">Eagle Consulting, 2024</p>
+        <p class="resume-summary">
+          Designed and implemented responsive websites and web applications for diverse clients.
+        </p>
+      </div>
+      <div class="resume-item">
+        <h4 class="resume-title">Projects Lead</h4>
+        <p class="resume-details">Eagle Technology School Project, 2023–2024</p>
+        <p class="resume-summary">
+          Led initiatives to improve students' technology proficiency 
+          through hands-on training and mentorship.
+        </p>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="resume-section">
+      <h3 class="resume-heading">Skills</h3>
+      <ul class="resume-skills">
+        <li>Full Stack Development</li>
+        <li>Data Analysis & Visualization</li>
+        <li>Project Management</li>
+        <li>Web Development</li>
+        <li>Database Management</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form id="contact-form">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input
+                    type="text"
+                    id="name"
+                    name="sender-name"
+                    placeholder="Enter Your Name"
+                    class="input-field"
+                    required
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Enter Your Email"
+                    class="input-field"
+                    required
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    class="input-field"
+                    required
+                    ></textarea>
+                </div>
+                <button type="button" id="send-btn" class="submit-btn">Send</button>
+                </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://x.com/genene_tise" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/tise_genene" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/genene-tise-253037234/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/tise-genene" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+  <p class="copy">&copy; Copyright <span id="year"></span></p>
+  <p class="copy">
+    Built with ❤️ by
+    <a href="https://www.linkedin.com/in/genene-tise-253037234/" target="_blank">GeneneT.</a>
+  </p>
+</footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+     
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+    <script>
+        emailjs.init("89QnyabpD4LZ4bCiA"); // Replace with your EmailJS User ID
+
+        document.getElementById("send-btn").addEventListener("click", function () {
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("message").value;
+
+          const templateParams = {
+            from_name: name,
+            from_email: email,
+            message: message,
+          };
+
+          emailjs
+            .send("service_4m6i1um", "template_e1vsp7j", templateParams)
+            .then(
+              function (response) {
+                alert("Message sent successfully!");
+              },
+              function (error) {
+                alert("Failed to send the message. Please try again.").error;
+              }
+            );
+        });
+</script>
+  </body>
+</html>

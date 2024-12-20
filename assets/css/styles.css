@@ -47,6 +47,9 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 section {
@@ -165,6 +168,9 @@ nav ul li {
 
 .skill-header {
   margin-bottom: 1rem;
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .skills-wrapper img {
@@ -198,6 +204,9 @@ nav ul li {
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-container {
@@ -212,10 +221,16 @@ nav ul li {
 
 .project-title {
   margin-bottom: var(--bottom-margin);
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Projects section ends */
@@ -957,7 +972,6 @@ footer {
   display: inline-block;
 }
 
-
 /* Root variables for theming */
 :root {
     --background-color: #ffffff;
@@ -1025,4 +1039,60 @@ footer {
     font-size: 0.9em;
 }
 
+#resume-section {
+  text-align: center;
+  margin: 40px 100px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+#resume-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#resume-section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+.view-more {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (if needed) */
+  margin-top: 30px; /* Add spacing above */
+}
+
+.github-btn {
+  display: inline-block; /* Button styling */
+  padding: 12px 24px; /* Adjust padding */
+  font-size: 1.1em; /* Text size */
+  background-color: #24292e; /* GitHub black */
+  color: #ffffff; /* White text */
+  text-decoration: none; /* No underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Hover effects */
+}
+
+.github-btn:hover {
+  background-color: #444d56; /* Lighter GitHub black on hover */
+  transform: scale(1.05); /* Slight growth on hover */
+}
